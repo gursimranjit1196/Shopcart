@@ -3,10 +3,11 @@ package project;
 public class signin_para {
 	
 	
-	String fullname,username,password,email,confirmpass;
+	String fullname,username,password,email,confirmpassword;
 
 	public String getFullname() {
 		return fullname;
+		system.out.print(fullname);
 	}
 
 	public void setFullname(String fullname) {
@@ -15,6 +16,7 @@ public class signin_para {
 
 	public String getUsername() {
 		return username;
+		system.out.print(username);
 	}
 
 	public void setUsername(String username) {
@@ -31,6 +33,7 @@ public class signin_para {
 
 	public String getEmail() {
 		return email;
+		system.out.print(email);
 	}
 
 	public void setEmail(String email) {
